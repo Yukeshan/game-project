@@ -8,6 +8,9 @@ const [password,setPassword]= useState("");
 const login = ()=>{
 
 }
+const loginWithGoogle = () =>{
+
+}
 
   return (
     <div className='login'>
@@ -24,6 +27,8 @@ const login = ()=>{
       />
 
       <button onClick={login}>Login</button>
+      <p>- OR -</p>
+      <button onClick={loginWithGoogle}>Login with <b>GOOGLE</b></button>
 
     </div>
   )
