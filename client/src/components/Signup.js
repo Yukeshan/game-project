@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import '../styles/Signup.css'
 
 function Signup() {
   const[user,setUser] = useState(null)
@@ -7,7 +8,7 @@ function Signup() {
   }
   return (
     <div className='signUp'>
-      <label>Sign Up</label>
+      <h3>Sign Up</h3>
       <input placeholder='First Name' onChange={(event) => {
         setUser({...user,firstName:event.target.value})
       }}

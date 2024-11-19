@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import '..//styles/Login.css';
 
 function Login() {
 
@@ -10,15 +11,15 @@ const login = ()=>{
 
   return (
     <div className='login'>
-      <label>Login</label>
+      <h3>Login</h3>
 
       <input placeholder='Username' onChange={(event) => {
-        setUsername.event.target.value;
+        setUsername(event.target.value);
       }}
       />
 
       <input placeholder='Password' onChange={(event) => {
-        setPassword.event.target.value;
+        setPassword(event.target.value);
       }}
       />
 
