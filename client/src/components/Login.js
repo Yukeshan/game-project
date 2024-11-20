@@ -28,7 +28,7 @@ const loginWithGoogle = () =>{
 
       <button onClick={login}>Login</button>
       <p>- OR -</p>
-      <button onClick={loginWithGoogle}>Login with <b>GOOGLE</b></button>
+      <button onClick={loginWithGoogle}>Login with GOOGLE</button>
 
     </div>
   )
