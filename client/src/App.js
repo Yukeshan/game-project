@@ -1,12 +1,21 @@
 import './App.css';
+import Home from './components/Home';
+import Leaderboard from './components/Leaderboard';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-     <Signup/>
-     <Login/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/signup' element={<Signup/>}/>
+          <Route path='/leaderboard' element={<Leaderboard/>}/>
+          <Route path='/login' element={<Login/>}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
@@ -14,4 +23,4 @@ function App() {
 
 export default App;
 
-//21:00
+//30:40

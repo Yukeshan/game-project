@@ -29,12 +29,12 @@ function Signup() {
       }}
       />
 
-      <input placeholder='Password' onChange={(event) => {
+      <input placeholder='Password' type='password' onChange={(event) => {
         setUser({...user,password:event.target.value})
       }}
       />
 
-      <input placeholder='Confirm Password' onChange={(event) => {
+      <input placeholder='Confirm Password' type='password' onChange={(event) => {
         setUser({...user,confirmPassword:event.target.value})
       }}
       />

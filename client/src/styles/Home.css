@@ -1,0 +1,52 @@
+/* Center the home container */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98vh; /* Full viewport height */
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for contrast */
+    background-image: url('..//img/bg-home.jpg'); /* Replace with your game background image */
+    background-size: cover; /* Ensure the background covers the whole container */
+    background-position: center; /* Center the background */
+    color: white; /* White text for readability */
+    font-family: 'Arial', sans-serif; /* Modern font for a game theme */
+  }
+
+/* Heading styles */
+    .home h1 {
+        margin-bottom: 30px;
+        font-size: 120px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #FF6F00; /* Bright orange color for emphasis */
+        font-weight: bold;
+        text-shadow: 8px 8px 10px rgba(0, 0, 0, 0.7); /* Shadow for a glowing effect */
+        text-transform: uppercase; /* All caps for a more dynamic look */
+      }
+  
+/* Button styling */
+  .home button {
+    width: 80%; /* Match input width */
+    max-width: 350px; /* Limit the maximum size */
+    padding: 14px;
+    background-color: #FF6F00; /* Bright orange background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 8px; /* Rounded corners for a more modern look */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+    margin-top: 20px;
+  }
+  
+/* Button hover effect */
+  .home button:hover {
+    background-color: #FF8C00; /* Slightly lighter orange on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+/* Button active (pressed) effect */
+  .home button:active {
+    transform: scale(1.02); /* Slight compression when pressed */
+  }

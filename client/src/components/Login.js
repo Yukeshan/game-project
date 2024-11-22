@@ -21,7 +21,7 @@ const loginWithGoogle = () =>{
       }}
       />
 
-      <input placeholder='Password' onChange={(event) => {
+      <input placeholder='Password' type='password' onChange={(event) => {
         setPassword(event.target.value);
       }}
       />
